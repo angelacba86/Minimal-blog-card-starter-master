@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+
+  <title>devChallenges.io | Minimal Blog Card</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display:flex ;
+      justify-content: center;
+      align-content: center;
+      min-height: 100vh;
+      font-family: 'Sora', sans-serif;
+      color:#394150;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 368px;
+      border-radius: 15px;
+      margin: auto;
+      background-color: #FFFFFF;
+      padding: 16px;
+      box-shadow: 8px 8px 16px  #E5EAF0;
+    }
+
+    .card img {
+      width: 336px;
+      height: 152px;
+      border-radius: 15px;
+    }
+
+    h1 {
+      font-size: 1.125rem;
+      margin-top: 16px;
+      color: #20293A
+    }
+
+    p {
+      font-size: 0.875rem;
+      margin-top: 6px;
+    }
+
+    span {
+      display: inline-block;
+      width: fit-content;
+      font-size: 0.625rem;
+      font-weight: bold;
+      padding: 6px 16px;
+      border-radius: 15px;
+      color: #7C19EE;
+      background-color: #F2EAFD;
+      margin-top: 16px;
+    }
+
+    small {
+      font-size: 0.75rem;
+      padding-top: 20px;
+      margin:20px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="./resources/Cactus.jpg" alt="cactus">
+    <span>Design</span>
+    <h1>Embracing Minimalism</h1>
+    <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies
+      in simplicity.</p>
+    <small>Annie Spratt</small>
+  </div>
+</body>
+
+</html>
